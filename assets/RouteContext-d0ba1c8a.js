@@ -1,0 +1,1 @@
+function f(t,n,e){return t===!1?null:t===!0||t==null?n?n(e):null:typeof t=="function"?t(e):t}function u(t,n,e="default"){return t[e]===!1?!1:t[e]||n[e]}const a=Symbol("routeContextInjectKey"),r="ant",l=(t,n)=>n||(t?`${r}-${t}`:r);export{l as a,u as b,f as g,a as r};
