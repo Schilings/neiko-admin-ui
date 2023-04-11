@@ -1,1 +1,0 @@
-import{h as n}from"./index-d8cf9b9f.js";function a(){return n.get("/system/organization/list")}function r(t){return n.post("/system/organization",t)}function e(t){return n.put("/system/organization",t)}function o(t){return n.delete(`/system/organization/${t}`)}function s(){return n.patch("/system/organization/revised")}export{s as a,r as c,a as l,o as r,e as u};

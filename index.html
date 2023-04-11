@@ -2,33 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="./favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neiko Admin</title>
-    <script type="module" crossorigin src="./assets/index-cfc391e4.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/runtime-core.esm-bundler-e620233b.js">
-    <link rel="modulepreload" crossorigin href="./assets/AntdIcon-50c809c3.js">
-    <link rel="modulepreload" crossorigin href="./assets/useConfigInject-4e7e38f3.js">
-    <link rel="modulepreload" crossorigin href="./assets/constants-2bea6948.js">
-    <link rel="modulepreload" crossorigin href="./assets/vue-router-ecc405fe.js">
-    <link rel="modulepreload" crossorigin href="./assets/_commonjsHelpers-c45321e7.js">
-    <link rel="modulepreload" crossorigin href="./assets/index-4b83e0fe.js">
-    <link rel="modulepreload" crossorigin href="./assets/wave-9bd9da2d.js">
-    <link rel="modulepreload" crossorigin href="./assets/index-cf5fb184.js">
-    <link rel="modulepreload" crossorigin href="./assets/KeyCode-e7009ae3.js">
-    <link rel="modulepreload" crossorigin href="./assets/styleChecker-cd40cf0f.js">
-    <link rel="modulepreload" crossorigin href="./assets/pickAttrs-a6ea96de.js">
-    <link rel="modulepreload" crossorigin href="./assets/index-b25e5e27.js">
-    <link rel="modulepreload" crossorigin href="./assets/index-d8cf9b9f.js">
-    <link rel="modulepreload" crossorigin href="./assets/array-utils-d1025e0b.js">
-    <link rel="modulepreload" crossorigin href="./assets/permission-a42399ff.js">
-    <link rel="modulepreload" crossorigin href="./assets/zh_CN-1ca40490.js">
-    <link rel="modulepreload" crossorigin href="./assets/dayjs.min-eeabd586.js">
-    <link rel="stylesheet" href="./assets/index-93e1413e.css">
-    <link rel="stylesheet" href="./assets/index-b0ed1530.css">
-    <link rel="stylesheet" href="./assets/index-2ce4a308.css">
-    <link rel="stylesheet" href="./assets/index-aacd648b.css">
-    <link rel="stylesheet" href="./assets/index-d598a41f.css">
+    <title><%- title %></title>
   </head>
   <body>
     <noscript>
@@ -39,7 +15,7 @@
             <b>enable Javascript</b>
           </a>
         </div>
-        in your browser to use Neiko Admin, Out-of-the-box mid-stage front/design solution!
+        in your browser to use <%- title %>, Out-of-the-box mid-stage front/design solution!
       </div>
     </noscript>
     <div id="app">
@@ -216,7 +192,7 @@
           background-color: #f4f7f9;
         "
       >
-        <img src="./assets/logo-27aa86d2.png" alt="logo" width="90" />
+        <img src="./src/assets/logo.png" alt="logo" width="90" />
         <div class="page-loading-warp">
           <div class="load-spin load-spin-lg load-spin-spinning">
             <span class="load-spin-dot load-spin-dot-spin">
@@ -228,10 +204,10 @@
           </div>
         </div>
         <div style="display: flex; align-items: center; justify-content: center; font-size: 28px; color: rgb(0 0 0 / 65%);"  >
-          Neiko Admin
+          <%- title %>
         </div>
       </div>
     </div>
-
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

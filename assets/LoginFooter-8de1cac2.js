@@ -1,1 +1,0 @@
-import"./LoginFooter.vue_vue_type_script_setup_true_lang-c70d31e5.js";import{_ as s}from"./LoginFooter.vue_vue_type_script_setup_true_lang-c70d31e5.js";import"./index-0993e891.js";import"./RouteContext-d0ba1c8a.js";import"./runtime-core.esm-bundler-e620233b.js";import"./CopyrightOutlined-8221f73c.js";import"./AntdIcon-50c809c3.js";export{s as default};

@@ -1,1 +1,0 @@
-import{h as o}from"./index-d8cf9b9f.js";function e(t){return r(Object.assign({grant_type:"password"},t))}function r(t){return o.request({url:"/oauth2/token",method:"POST",headers:{Authorization:"Basic dGVzdDp0ZXN0"},params:t})}function n(t){return o.request({url:"/oauth2/revoke",method:"POST",headers:{Authorization:"Basic dGVzdDp0ZXN0"},params:t})}export{e as a,n as l};
