@@ -25,6 +25,7 @@ export default defineConfig({
   //打包问题 https://blog.csdn.net/qq_38880700/article/details/123724675
   base: './',
   server: {
+    host: "0.0.0.0",
     proxy: {
       '^/api': {
         target: serverAddress,
